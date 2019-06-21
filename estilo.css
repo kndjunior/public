@@ -172,3 +172,7 @@ div {
     border-top-color: #1c1c1c;
     border-left-color: #1c1c1c;
 }
+.dropdown-content a {
+    background: #0f1013;
+}
+
