@@ -176,3 +176,18 @@ div {
     background: #0f1013;
 }
 
+.bubble {
+    background-color: #0f1013!important;
+    color: #ffffff!important;
+}
+
+.bubble::after {
+    border-color: transparent #000!important;
+}
+
+.bubble a {
+    color: #ffffff!important;
+}
+
+/*.assistente { content: url('')} */
+/*  Use código acima para mudar DeusaLoli para uma skin de sua preferencia, não esqueça de retira os /* que simboliza comenteiros  */
