@@ -155,3 +155,20 @@ div {
 .modal .overlay {
     background-color: rgba(1, 1, 7, 0.7);
 }
+.btn:hover {
+    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#26000000)
+}
+
+#nprogress .bar {
+    background: #1c1c1c;
+}
+
+#nprogress .peg {
+    -webkit-box-shadow: 0 0 10px #1c1c1c, 0 0 5px #1c1c1c;
+    box-shadow: 0 0 10px #1c1c1c, 0 0 5px #1c1c1c;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #1c1c1c;
+    border-left-color: #1c1c1c;
+}
