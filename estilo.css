@@ -1,0 +1,157 @@
+@import "../style.css";
+@set {
+    body-bgcolor: #02010A;
+    body-color: #ffffff;
+    nav-bg: #30343e00;
+    inputs-bg: #434857;
+    nav-color: #cfd5dc;
+    nav-color-hover: #e5e7ea;
+    blue-bg: #1c1c1c;
+    green-bg: #1c1c1c;
+    purple-bg: #1c1c1c;
+    red-bg: #1c1c1c;
+    yellow-bg: #1c1c1c;
+    black-bg: #000000;
+    blacklight-bg: #222;
+    chill-bg: #222222;
+    blue-color: #FFF;
+    green-color: #FFF;
+    purple-color: #FFF;
+    red-color: #FFF;
+    yellow-color: #FFF;
+    black-color: #FFF;
+    blacklight-color: #FFF;
+    vapor-color: rgba(255, 255, 255, .8);
+    active-bg: #1c1c1c;
+    btn-active-bg: #1c1c1c;
+    a-hover: #1c1c1c;
+}
+
+.line,
+hr {
+    background: #333333;
+    color: $(blue-color);
+}
+
+ul {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.right ul {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav,
+nav:hover {
+    padding: 0px;
+    background-color: rgb(0, 0, 0, 0.7)!important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+::-webkit-scrollbar {
+    width: 0.8vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #02010A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.info,
+.success,
+.danger,
+.warning {
+    border-left: 6px solid #1c1c1c;
+}
+
+.hd {
+    background-color: #1c1c1c;
+}
+
+.spoiler>div {
+    background-color: #02010A;
+}
+
+button,
+select,
+select option {
+    background-color: #1c1c1c;
+    border: 1px solid rgb(0, 0, 0)
+}
+
+input,
+textarea,
+.r3bbif {
+    background-color: #222222;
+    border: 1px solid #000000;
+}
+
+textarea:focus,
+input:focus,
+select:focus,
+button:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #3f3e3e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #3f3e3e;
+    border-color: #000000;
+}
+
+.topnav {
+    padding: 0% 0%;
+}
+
+.alert {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+div {
+    border-radius: 3px;
+}
+
+.input-icon {
+    color: #ffffff;
+}
+
+@media (max-width:991px) {
+    .logo {
+        padding-left: 2%;
+        padding-top: 5px;
+    }
+}
+
+@media(min-width:992px) {
+    .logo {
+        padding-left: 2%;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 992px) {
+    nav {
+        padding: 0% 0%!important;
+    }
+}
+
+#frmcadastro input,
+#frmlogin input {
+    margin-bottom: 1%;
+}
+
+.modal h1 {
+    background-color: #02010A;
+    border-bottom: 1px solid #333333;
+}
+
+.modal .body {
+    background-color: #02010A;
+    border-top: 1px solid #333333;
+}
+
+.modal .overlay {
+    background-color: rgba(1, 1, 7, 0.7);
+}
