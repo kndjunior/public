@@ -6,7 +6,7 @@
 - [Dark Blue](https://www.dreamanimes.com.br/inicio?tema=Dark%20Blue)
 - [Dark Blue (Skin da Kazami Kazumi)](https://www.dreamanimes.com.br/inicio?tema=Dark%20Kazami)
 - [Light](https://www.dreamanimes.com.br/inicio?tema=Light)
-- [Dark Blue (Skin da Kazami Kazumi)](https://www.dreamanimes.com.br/inicio?tema=Light%20Kazami)
+- [Light Blue (Skin da Kazami Kazumi)](https://www.dreamanimes.com.br/inicio?tema=Light%20Kazami)
 
 ### Links dos códigos
 - [Dark Blue/Github](https://github.com/43D/public/blob/master/Estilos/DarkBlue.css)
