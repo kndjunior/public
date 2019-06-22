@@ -1,108 +1,206 @@
 @import "../style.css";
 @set {
     body-bgcolor: #02010A;
+    /* cor de fundo do site */
     body-color: #ffffff;
-    nav-bg: #30343e00;
-    inputs-bg: #434857;
-    nav-color: #cfd5dc;
-    nav-color-hover: #e5e7ea;
+    /* cor padrão dos textos */
+    nav-bg: rgb(0, 0, 0, 0.7);
+    /* cor de fundo da Barra de Navegação */
+    submenu: #0f1013;
+    /*Cor dos submenus do menu principal e botoes do site*/
+    botaoHover: #222222;
+    /*Cor ao passar mouse em menus e botoes*/
     blue-bg: #1c1c1c;
+    /* tudo que é clicável e tem o fundo azul no site */
     green-bg: #1c1c1c;
+    /* tudo que é clicável e tem o fundo verde no site */
     purple-bg: #1c1c1c;
+    /* tudo que é clicável e tem o fundo roxo no site */
     red-bg: #1c1c1c;
+    /* tudo que é clicável e tem o fundo vermelho no site */
     yellow-bg: #1c1c1c;
+    /* tudo que é clicável e tem o fundo amarelo no site */
     black-bg: #000000;
+    /* tudo que tem uma cor bem escura rodapé etc */
     blacklight-bg: #222;
+    /* tudo que tem a cor um pouquinho escura */
     chill-bg: #222222;
+    /* tudo que tem uma cor nem tão escura EX campos de resposta */
     blue-color: #FFF;
+    /* cor do texto do blue-bg */
     green-color: #FFF;
+    /* cor do texto do green-bg */
     purple-color: #FFF;
+    /* cor do texto do purple-bg */
     red-color: #FFF;
+    /* cor do texto do red-bg */
     yellow-color: #FFF;
-    black-color: #FFF;
+    /* cor do texto do yellow-bg */
     blacklight-color: #FFF;
+    /* cor do texto blacklight blue-bg */
     vapor-color: rgba(255, 255, 255, .8);
+    /* fundo dos botões seguir */
     active-bg: #1c1c1c;
+    /* fundo dos botões ativados */
     btn-active-bg: #1c1c1c;
+    /* cor do texto dos links ao passar o mouse */
     a-hover: #1c1c1c;
+    /*Cor do texto ao passar o mouse*/
+    borda: #ffffff;
+    /*Borda dos elementos*/
+    textoAlt: #ffffff;
+    /*Cor do texto alternativo*/
+    scrol: rgba(255, 255, 255, 0.3);
+    /*Barra de scroll do site*/
+    scrolBac: #02010A;
+    /*Fundo da bBarra de scroll do site*/
+    barra: #1c1c1c;
+    /*Barra de progresso ao carregar alguma página (aparece em cima do menu principal)*/
+    alerta: #1c1c1c;
+    /*Cor indicador da caixa de aviso do site*/
+}
+
+
+/*.assistente { content: url('link da imagem entre as aspas')} */
+/*  Use código acima para mudar DeusaLoli para uma skin de sua preferencia, não esqueça de retira os /* que simboliza comenteiros  */
+
+
+/*.body { background-image: url('link da imagem entre as aspas')} */
+/*  Use código acima para mudar imagem de fundo do site, visite https://www.w3schools.com/cssref/pr_background-image.asp para saber mais de como configurar  */
+
+.btn:hover {
+    color: $(body-color)!important;
+    background-image: none;
+    background-color: $(botaoHover);
+}
+
+a,
+b {
+    color: $(body-color);
+}
+
+p,
+i,
+h4,
+.topnav a,
+.topnav i,
+h1,
+h2,
+.black a,
+h5,
+.rodape,
+input[type=checkbox],
+input[type=checkbox]~i:before {
+    color: $(body-color)!important;
+}
+
+.topnav .dropdown-content,
+.topnav .dropdown:hover a,
+.topnav .dropdown-content a,
+.topnav .dropdown:hover i,
+.dropdown.open .dropdown-content a,
+.alert,
+#lista-filtros .dropdown-content li {
+    color: $(body-color)!important;
+    background-color: $(submenu)!important;
+}
+
+button,
+select,
+select option,
+input,
+textarea,
+.r3bbif,
+#lista-filtros .dropdown a {
+    background-color: $(submenu);
+    border: 1px solid $(borda);
+    color: $(body-color);
+}
+
+i {
+    text-shadow: none;
 }
 
 .line,
 hr {
-    background: #333333;
-    color: $(blue-color);
+    background: $(borda);
+    color: $$(body-color);
 }
 
-ul {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.right ul {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-nav,
-nav:hover {
-    padding: 0px;
-    background-color: rgb(0, 0, 0, 0.7)!important;
-}
-
-nav:hover input{
-    background-color: #222222!important;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, .1);
-}
-
-::-webkit-scrollbar {
-    width: 0.8vh;
-}
-
-::-webkit-scrollbar-track {
-    background-color: #02010A;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+#nextytV,
+#prevytV {
+    background: none;
 }
 
 .info,
 .success,
 .danger,
 .warning {
-    border-left: 6px solid #1c1c1c;
-}
-
-.hd {
-    background-color: #1c1c1c;
+    border-left: 6px solid $(alerta);
 }
 
 .spoiler>div {
-    background-color: #02010A;
+    background: none;
 }
 
-button,
-select,
-select option {
+nav:hover input,
+.topnav a:hover {
+    background-color: $(botaoHover)!important;
+    color: $(body-color)!important;
+}
+
+.hd,
+.hd b,
+.detalhes,
+.detalhes h4,
+.detalhes b,
+.duration,
+.bottom-div,
+.top-div {
     background-color: #1c1c1c;
-    border: 1px solid rgb(0, 0, 0)
+    color: $(textoAlt)!important;
 }
 
-input,
-textarea,
-.r3bbif {
-    background-color: #222222;
-    border: 1px solid #000000;
+.modal h1 {
+    background-color: $(submenu);
+    border-bottom: 1px solid $(borda);
 }
 
-textarea:focus,
-input:focus,
-select:focus,
-button:focus {
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #3f3e3e;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #3f3e3e;
-    border-color: #000000;
+.modal .body {
+    background-color: $(submenu);
+    border-top: 1px solid $(borda);
+}
+
+.modal .overlay {
+    background-color: rgba(1, 1, 7, 0.7);
+}
+
+#nprogress .bar {
+    background: $(barra);
+}
+
+#nprogress .peg {
+    -webkit-box-shadow: 0 0 10px $(borda), 0 0 5px $(borda);
+    box-shadow: 0 0 10px $(borda), 0 0 5px $(borda);
+}
+
+#nprogress .spinner-icon {
+    border-top-color: $(barra);
+    border-left-color: $(barra);
+}
+
+.bubble {
+    background-color: $(submenu)!important;
+    border: 1px solid $(borda)!important;
+    color: $(body-color)!important;
+}
+
+.bubble::after {
+    color: $(body-color)!important
+}
+
+.bubble a {
+    border-color: transparent $(borda)!important;
 }
 
 .topnav {
@@ -118,8 +216,18 @@ div {
     border-radius: 3px;
 }
 
-.input-icon {
-    color: #ffffff;
+#frmcadastro input,
+#frmlogin input {
+    margin-bottom: 1%;
+}
+
+textarea:focus,
+input:focus,
+select:focus,
+button:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #3f3e3e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #3f3e3e;
+    border-color: $(borda);
 }
 
 @media (max-width:991px) {
@@ -141,57 +249,18 @@ div {
     }
 }
 
-#frmcadastro input,
-#frmlogin input {
-    margin-bottom: 1%;
+::-webkit-scrollbar-thumb {
+    background-color: $(scrol);
 }
 
-.modal h1 {
-    background-color: #02010A;
-    border-bottom: 1px solid #333333;
+::-webkit-scrollbar {
+    width: 0.8vh;
 }
 
-.modal .body {
-    background-color: #02010A;
-    border-top: 1px solid #333333;
+::-webkit-scrollbar-track {
+    background-color: $(scrolBac);
 }
 
-.modal .overlay {
-    background-color: rgba(1, 1, 7, 0.7);
+::-webkit-scrollbar-thumb:hover {
+    background-color: $(scrol);
 }
-.btn:hover {
-    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#26000000)
-}
-
-#nprogress .bar {
-    background: #1c1c1c;
-}
-
-#nprogress .peg {
-    -webkit-box-shadow: 0 0 10px #1c1c1c, 0 0 5px #1c1c1c;
-    box-shadow: 0 0 10px #1c1c1c, 0 0 5px #1c1c1c;
-}
-
-#nprogress .spinner-icon {
-    border-top-color: #1c1c1c;
-    border-left-color: #1c1c1c;
-}
-.dropdown-content a {
-    background: #0f1013;
-}
-
-.bubble {
-    background-color: #0f1013!important;
-    color: #ffffff!important;
-}
-
-.bubble::after {
-    border-color: transparent #000!important;
-}
-
-.bubble a {
-    color: #ffffff!important;
-}
-
-/*.assistente { content: url('link da imagem entre as aspas')} */
-/*  Use código acima para mudar DeusaLoli para uma skin de sua preferencia, não esqueça de retira os /* que simboliza comenteiros  */
