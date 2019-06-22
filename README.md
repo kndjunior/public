@@ -8,7 +8,7 @@
 - [Light](https://www.dreamanimes.com.br/inicio?tema=Light)
 - [Light Blue (Skin da Kazami Kazumi)](https://www.dreamanimes.com.br/inicio?tema=Light%20Kazami)
 
-### Links dos códigos
+### Links dos códigos:
 - [Dark Blue/Github](https://github.com/43D/public/blob/master/Estilos/DarkBlue.css)
 - [Dark Blue Kazami Kazumi/Github](https://github.com/43D/public/blob/master/Estilos/Dark%20Kazami.css)
 - [Light/Github](https://github.com/43D/public/blob/master/Estilos/Light.css)
