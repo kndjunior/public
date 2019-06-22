@@ -38,12 +38,8 @@
     /* cor do texto do yellow-bg */
     blacklight-color: #FFF;
     /* cor do texto blacklight blue-bg */
-    vapor-color: rgba(255, 255, 255, .8);
-    /* fundo dos botões seguir */
     active-bg: #1c1c1c;
     /* fundo dos botões ativados */
-    btn-active-bg: #1c1c1c;
-    /* cor do texto dos links ao passar o mouse */
     a-hover: #1c1c1c;
     /*Cor do texto ao passar o mouse*/
     borda: #ffffff;
