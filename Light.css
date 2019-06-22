@@ -74,10 +74,6 @@
     background-color: $(botaoHover);
 }
 
-.spoiler>div {
-    background: none;
-}
-
 a,
 b {
     color: $(body-color);
@@ -104,14 +100,9 @@ input[type=checkbox]~i:before {
 .topnav .dropdown:hover i,
 .dropdown.open .dropdown-content a,
 .alert,
-.alert,
 #lista-filtros .dropdown-content li {
     color: $(body-color)!important;
     background-color: $(submenu)!important;
-}
-
-i {
-    text-shadow: none;
 }
 
 button,
@@ -126,6 +117,10 @@ textarea,
     color: $(body-color);
 }
 
+i {
+    text-shadow: none;
+}
+
 .line,
 hr {
     background: $(borda);
@@ -137,25 +132,15 @@ hr {
     background: none;
 }
 
-#nprogress .bar {
-    background: $(barra);
-}
-
-#nprogress .peg {
-    -webkit-box-shadow: 0 0 10px $(borda), 0 0 5px $(borda);
-    box-shadow: 0 0 10px $(borda), 0 0 5px $(borda);
-}
-
-#nprogress .spinner-icon {
-    border-top-color: $(barra);
-    border-left-color: $(barra);
-}
-
 .info,
 .success,
 .danger,
 .warning {
     border-left: 6px solid $(alerta);
+}
+
+.spoiler>div {
+    background: none;
 }
 
 nav:hover input,
@@ -188,6 +173,20 @@ nav:hover input,
 
 .modal .overlay {
     background-color: rgba(1, 1, 7, 0.7);
+}
+
+#nprogress .bar {
+    background: $(barra);
+}
+
+#nprogress .peg {
+    -webkit-box-shadow: 0 0 10px $(borda), 0 0 5px $(borda);
+    box-shadow: 0 0 10px $(borda), 0 0 5px $(borda);
+}
+
+#nprogress .spinner-icon {
+    border-top-color: $(barra);
+    border-left-color: $(barra);
 }
 
 .bubble {
