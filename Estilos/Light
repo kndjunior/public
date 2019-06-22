@@ -1,0 +1,262 @@
+@import "../style.css";
+@set {
+    body-bgcolor: #ffffff;
+    /* cor de fundo do site */
+    body-color: #000000;
+    /* cor padrão dos textos */
+    nav-bg: rgba(200, 200, 200, 0.7);
+    /* cor de fundo da Barra de Navegação */
+    submenu: #ececec;
+    /*Cor dos submenus do menu principal e botoes do site*/
+    botaoHover: #eeeeee;
+    /*Cor ao passar mouse em menus e botoes*/
+    blue-bg: #eeeeee;
+    /* tudo que é clicável e tem o fundo azul no site */
+    green-bg: #eeeeee;
+    /* tudo que é clicável e tem o fundo verde no site */
+    purple-bg: #eeeeee;
+    /* tudo que é clicável e tem o fundo roxo no site */
+    red-bg: #eeeeee;
+    /* tudo que é clicável e tem o fundo vermelho no site */
+    yellow-bg: #eeeeee;
+    /* tudo que é clicável e tem o fundo amarelo no site */
+    black-bg: rgba(200, 200, 200, .7);
+    /* tudo que tem uma cor bem escura rodapé etc */
+    blacklight-bg: #eeeeee;
+    /* tudo que tem a cor um pouquinho escura */
+    chill-bg: #eeeeee;
+    /* tudo que tem uma cor nem tão escura EX campos de resposta */
+    blue-color: #000;
+    /* cor do texto do blue-bg */
+    green-color: #000;
+    /* cor do texto do green-bg */
+    purple-color: #000;
+    /* cor do texto do purple-bg */
+    red-color: #000;
+    /* cor do texto do red-bg */
+    yellow-color: #000;
+    /* cor do texto do yellow-bg */
+    blacklight-color: #000000;
+    /* cor do texto blacklight blue-bg */
+    active-bg: #eeeeee;
+    /* fundo dos botões ativados */
+    a-hover: #aaaaaa;
+    /*Cor do texto ao passar o mouse*/
+    borda: #000000;
+    /*Borda dos elementos*/
+    textoAlt: #ffffff;
+    /*Cor do texto alternativo*/
+    scrol: rgba(0, 0, 0, 0.3);
+    /*Barra de scroll do site*/
+    scrolBac: #fbf8f4;
+    /*Fundo da bBarra de scroll do site*/
+    barra: rgba(0, 0, 0, 0.5);
+    /*Barra de progresso ao carregar alguma página (aparece em cima do menu principal)*/
+    alerta: rgba(0, 0, 0, 0.5);
+    /*Cor indicador da caixa de aviso do site*/
+}
+
+
+/*.assistente { content: url('link da imagem entre as aspas')} */
+/*  Use código acima para mudar DeusaLoli para uma skin de sua preferencia, não esqueça de retira os /* que simboliza comenteiros  */
+
+
+/*.body { background-image: url('link da imagem entre as aspas')} */
+/*  Use código acima para mudar imagem de fundo do site, visite https://www.w3schools.com/cssref/pr_background-image.asp para saber mais de como configurar  */
+
+.btn:hover {
+    color: $(body-color)!important;
+    background-image: none;
+    background-color: $(botaoHover);
+}
+
+a,
+b {
+    color: $(body-color);
+}
+
+p,
+i,
+h4,
+.topnav a,
+.topnav i,
+h1,
+h2,
+.black a,
+h5,
+.rodape,
+input[type=checkbox],
+input[type=checkbox]~i:before {
+    color: $(body-color)!important;
+}
+
+.topnav .dropdown-content,
+.topnav .dropdown:hover a,
+.topnav .dropdown-content a,
+.topnav .dropdown:hover i,
+.dropdown.open .dropdown-content a,
+.alert,
+#lista-filtros .dropdown-content li {
+    color: $(body-color)!important;
+    background-color: $(submenu)!important;
+}
+
+button,
+select,
+select option,
+input,
+textarea,
+.r3bbif,
+#lista-filtros .dropdown a {
+    background-color: $(submenu);
+    border: 1px solid $(borda);
+    color: $(body-color);
+}
+
+i {
+    text-shadow: none;
+}
+
+.line,
+hr {
+    background: $(borda);
+    color: $$(body-color);
+}
+
+#nextytV,
+#prevytV {
+    background: none;
+}
+
+.info,
+.success,
+.danger,
+.warning {
+    border-left: 6px solid $(alerta);
+}
+
+.spoiler>div {
+    background: none;
+}
+
+nav:hover input,
+.topnav a:hover {
+    background-color: $(botaoHover)!important;
+    color: $(body-color)!important;
+}
+
+.hd,
+.hd b,
+.detalhes,
+.detalhes h4,
+.detalhes b,
+.duration,
+.bottom-div,
+.top-div {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: $(textoAlt)!important;
+}
+
+.modal h1 {
+    background-color: $(submenu);
+    border-bottom: 1px solid $(borda);
+}
+
+.modal .body {
+    background-color: $(submenu);
+    border-top: 1px solid $(borda);
+}
+
+.modal .overlay {
+    background-color: rgba(1, 1, 7, 0.7);
+}
+
+#nprogress .bar {
+    background: $(barra);
+}
+
+#nprogress .peg {
+    -webkit-box-shadow: 0 0 10px $(borda), 0 0 5px $(borda);
+    box-shadow: 0 0 10px $(borda), 0 0 5px $(borda);
+}
+
+#nprogress .spinner-icon {
+    border-top-color: $(barra);
+    border-left-color: $(barra);
+}
+
+.bubble {
+    background-color: $(submenu)!important;
+    border: 1px solid $(borda)!important;
+    color: $(body-color)!important;
+}
+
+.bubble a {
+    color: $(body-color)!important;
+}
+
+.bubble::after {
+    border-color: transparent $(borda)!important;
+}
+
+.topnav {
+    padding: 0% 0%;
+}
+
+.alert {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+div {
+    border-radius: 3px;
+}
+
+#frmcadastro input,
+#frmlogin input {
+    margin-bottom: 1%;
+}
+
+textarea:focus,
+input:focus,
+select:focus,
+button:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 8px #ffffff;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 8px #ffffff;
+    border-color: $(borda);
+}
+
+@media (max-width:991px) {
+    .logo {
+        padding-left: 2%;
+        padding-top: 5px;
+    }
+}
+
+@media(min-width:992px) {
+    .logo {
+        padding-left: 2%;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 992px) {
+    nav {
+        padding: 0% 0%!important;
+    }
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $(scrol);
+}
+
+::-webkit-scrollbar {
+    width: 0.8vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: $(scrolBac);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: $(scrol);
+}
