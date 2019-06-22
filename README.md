@@ -14,3 +14,12 @@
 - [Light/Github](https://github.com/43D/public/blob/master/Estilos/Light.css)
 - [Light Kazami Kazumi](https://github.com/43D/public/blob/master/Estilos/Light%20Kazami.css)
 
+# **Imagens dos temas**
+#### - Dark Blue
+![](https://cdn.discordapp.com/attachments/591830863746957319/591973600081346586/unknown.png)
+#### - Dark Blue (Skin da Kazami Kazumi)
+![](https://cdn.discordapp.com/attachments/591830863746957319/591973769564651560/unknown.png)
+#### - Light
+![](https://cdn.discordapp.com/attachments/591830863746957319/591973979087044618/unknown.png)
+#### - Light Blue (Skin da Kazami Kazumi)
+![](https://cdn.discordapp.com/attachments/591830863746957319/591974118283411457/unknown.png)
