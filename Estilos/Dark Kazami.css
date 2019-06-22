@@ -187,12 +187,12 @@ nav:hover input,
 
 .bubble {
     background-color: $(submenu)!important;
-    border: 1px solid $(borda)!important;
+    border: 1px solid $(submenu)!important;
     color: $(body-color)!important;
 }
 
-.bubble::after {
-    color: $(body-color)!important
+div.bubble::after {
+    border-color: transparent $(submenu)!important
 }
 
 .bubble a {
