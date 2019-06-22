@@ -8,4 +8,4 @@
 
 ### Links dos códigos
 - [Dark Blue/Github](https://github.com/43D/public/blob/master/Estilos/DarkBlue.css)
-- [Light/Github](https://github.com/43D/public/blob/master/Estilos/Light.csst)
+- [Light/Github](https://github.com/43D/public/blob/master/Estilos/Light.css)
