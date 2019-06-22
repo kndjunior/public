@@ -105,7 +105,6 @@ input[type=checkbox]~i:before {
 .dropdown.open .dropdown-content a,
 .alert,
 .alert,
-input,
 #lista-filtros .dropdown-content li {
     color: $(body-color)!important;
     background-color: $(submenu)!important;
