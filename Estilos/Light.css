@@ -54,6 +54,7 @@
     /*Barra de progresso ao carregar alguma página (aparece em cima do menu principal)*/
     alerta: rgba(0, 0, 0, 0.5);
     /*Cor indicador da caixa de aviso do site*/
+    .body { background-image: url('http://sf.co.ua/13/06/wallpaper-2850123.jpg')}
 }
 
 
